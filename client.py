@@ -3,7 +3,7 @@
 import socket
 
 clientsocket = socket.socket(socket.AF_INET,socket.SOCK_STREAM)
-host = socket.gethostbyname
+host = socket.gethostbyname()
 port =1024
 
 clientsocket.connect(('host',port))
